@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    padding:0;
+    margin:0;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+.main{
+    display: grid;
+    grid-auto-flow: column;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#right{
+    height:500px;
+}
+#left{
+    width: 420px;
+}
+li {
+    list-style-image: url(assets/images/icon-list.svg);
+    width: fit-content;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: hsl(235, 18%, 26%);
+  }
+article{
+    margin-left: 40px;
+    margin-top: -35px;
+    color: hsl(235, 18%, 26%);
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+}
+p{
+    font-size: 16px;
+    width: 400px;
+    margin-top: -30px;
+    line-height: 25px;
+    color: hsl(235, 18%, 26%);
+}
+section{
+    margin-top: 30px;
+}
+input{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 0.4rem;
+    border-color: hsl(231, 7%, 60%);
+    color: hsl(231, 7%, 60%);
+}
+input:active{
+    cursor: pointer;
+    border-color: hsl(231, 7%, 60%);
+    color: hsl(231, 7%, 60%);;
+}
+.input:invalid {
+    color: hsl(4, 100%, 67%);
+    border-color: hsl(4, 100%, 67%);
+  
+  }
+#subscribe{
+    margin-top:20px;
+    width: 330px;
+    height: 30px;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 0.4rem;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+#subscribe:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, #ff3e83,#fd634a);
+    box-shadow: 0 1rem 1.5rem #ff3e8355;
+}
+
+form{
+    margin-top: 30px;
+}
+label{
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+}
+span{
+    margin-left: 70px;
+    color: hsl(4, 100%, 67%);
+}
+.hide {
+    display: none;
+  }
